@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'sinatra/reloader'
+
 
 get '/' do
   secret_num = rand(101)
